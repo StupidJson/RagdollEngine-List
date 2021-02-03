@@ -172,7 +172,7 @@ TsunioxGUI.MouseButton1Click:Connect(function()
 end)
 
 ExodusGUI.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/MeAL9tUE"))()
+	loadstring(game:HttpGet("https://pastebin.com/MeAL9tUE", true))()
 end)
 
 -- Load Text:
